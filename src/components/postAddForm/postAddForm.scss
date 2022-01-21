@@ -1,0 +1,19 @@
+.add_post-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+.add_post-form::placeholder {
+    padding-left: 50px;
+}
+
+.add_post-input {
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 3px solid #1DA1F2;
+    outline: none;
+}
+}
+

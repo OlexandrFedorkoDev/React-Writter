@@ -1,0 +1,69 @@
+.post_list-item {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+    
+    .post_list_item-txt {
+        word-wrap: break-word;
+        width: 85%;
+    }
+    .important {
+        color: gold;
+    }
+    .like {
+        color: #d92626;
+       
+    }
+    
+   
+   
+    .post_list-item_btn-box {
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        border-left: 1px solid black;
+        padding-left: 10px;
+    
+        .post_list_item-btn {
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            color: gray;
+            .icon {
+                font-size: 17px;
+                transition: all .2s;
+            }
+            .fa-star{
+                &:hover {
+                    color: gold;
+                    }
+            }
+            
+            .fa-trash-alt{
+                &:hover {
+                    color: black;
+                 }
+            }
+          
+            
+            .fa-heart{
+                &:hover {
+                    color: #d92626;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #1DA1F2;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    padding: 0 20px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s;
+    height: 40px;
+   &:hover {
+        background-color: #227ab1;
+    }
+}
+
+.app {
+    max-width: 1200px;
+    border: 3px solid #1DA1F2;
+    margin: 50px auto;
+    .container-fluid{
+    padding: 20px ;
+    background-color: #fff;
+    box-shadow: 15px 15px 15px #227ab1;
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            border: 3px solid #1DA1F2;
+          
+        }
+    }
+
+}
+
+

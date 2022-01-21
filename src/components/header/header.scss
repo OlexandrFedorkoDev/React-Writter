@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo_box {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .blue {
+        color: #1DA1F2;
+        font-weight: 700;
+    }
+    
+    .red {
+        color: #d92626;
+        font-weight: 700;
+    }
+
+}
+
+
+
